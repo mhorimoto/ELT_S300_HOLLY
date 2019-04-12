@@ -1,0 +1,19 @@
+################################################
+# Syntax Coloring Map ELT_S300_HOLLY library
+################################################
+
+################################################
+# Datatypes (KEYWORD1)
+################################################
+S300		KEYWORD1
+
+################################################
+# Methods and Functions (KEYWORD2)
+################################################
+getCO2ppm	KEYWORD2
+sendCommand	KEYWORD2
+sleep		KEYWORD2
+wakeup		KEYWORD2
+clear		KEYWORD2
+start_mcdl	KEYWORD2
+end_mcdl	KEYWORD2
