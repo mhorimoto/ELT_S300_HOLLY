@@ -44,7 +44,7 @@ void S300I2C::wakeup(void) {
   delay(6000);
 }
   
-void S300I2C::reset_clear(void) {
+void S300I2C::clear_recalib(void) {
   writeCommand('C');
   delay(6000);
 }
@@ -55,6 +55,16 @@ void S300I2C::start_mcdl(void) {
 }
 
 void S300I2C::end_mcdl(void) {
+  writeCommand('E');
+  delay(2000);
+}
+
+void S300I2C::start_acdl(void) {
+  writeCommand('A');
+  delay(2000);
+}
+
+void S300I2C::end_acdl(void) {
   writeCommand('E');
   delay(2000);
 }

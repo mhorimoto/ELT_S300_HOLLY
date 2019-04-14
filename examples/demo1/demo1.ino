@@ -2,6 +2,7 @@
  *
  * Example program for ELT S300 I2C
  * Version: 1.00
+ *
  */
 
 

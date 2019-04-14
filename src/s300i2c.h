@@ -17,9 +17,11 @@ class S300I2C {
   boolean begin(uint8_t i2caddr);
   void sleep(void);              // Sleep command
   void wakeup(void);             // Wake up command
-  void reset_clear(void);        // Reset Clear Command
+  void clear_recalib(void);      // Clear Recalibtation Factor Command
   void start_mcdl(void);         // Start Manual Calibration
   void end_mcdl(void);           // End Manual Calibration
+  void start_acdl(void);         // Start Auto-Calibration
+  void end_acdl(void);           // End Auto Calibration
   unsigned int getCO2ppm(void);  // get CO2 value
 
  private:

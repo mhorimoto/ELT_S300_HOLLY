@@ -1,4 +1,7 @@
 // -*- C++ -*-
+// Demo2
+// Ver:1.00
+//
 #include <Wire.h>
 #include "Adafruit_SHT31.h"
 #include "s300i2c.h"
