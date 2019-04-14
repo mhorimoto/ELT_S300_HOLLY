@@ -11,8 +11,8 @@ These sensors use **I2C** to communicatge, 2pins are required to interface.
 **CAUTION!**  
 **This library is personally created independently of ELT, and ELT has nothing to do with defects in this library.**
 
-** SORRY **
-** Please allow most of the comments written in the source code in the example to be in Japanese. **
+**SORRY**
+**Please allow most of the comments written in the source code in the example to be in Japanese.**
 
 ## Installation
 
