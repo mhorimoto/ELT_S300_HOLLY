@@ -1,7 +1,7 @@
 /* -*- C++ -*-
  *
  * Example program for ELT S300 I2C
- * Version: 1.00
+ * Version: 1.10
  *
  */
 
@@ -22,6 +22,9 @@ void setup() {
   // s3は上で宣言した値を使う。
   s3.begin(S300I2C_ADDR);
   delay(10000); // 10sec wait.
+  s3.wakeup();
+  s3.end_mcdl();
+  s3.end_acdl();
   Serial.println("START S300I2C");
 }
 
