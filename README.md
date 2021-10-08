@@ -56,6 +56,6 @@ Arduino IDEのライブラリ管理にアクセスして適当にインストー
 
 ## 著作権
 
-このソフトウェアは、MITライセンスのもとで公開されている。[LICENSE-ja.txt](LICEN
-SE-ja.txt)を見よ。
+このソフトウェアは、MITライセンスのもとで公開されている。 [LICENSE-ja.txt](LICEN
+SE-ja.txt) を見よ。
 
