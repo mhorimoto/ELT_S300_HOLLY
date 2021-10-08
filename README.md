@@ -29,6 +29,10 @@ at: http://stupiddog.jp/note/archives/266
  - It is necessary to enhance the functional description for hardware reset.
 
 
+## Copyright
+
+This software is released under the MIT License, see [LICENSE.txt](LICENSE.txt).
+  
 -----
 # ELT SENSOR S-300 シリーズ 二酸化炭素(CO2)センサー Arduino用ライブラリ
 
@@ -49,4 +53,9 @@ Arduino IDEのライブラリ管理にアクセスして適当にインストー
 
  - 手動校正などの機能はメソッドとして実装されているのですが、サンプルプログラムに反映されていないのでそのプログラムも紹介できると良い。
  - ハードウェアによるリセット機能を実装したい。
+
+## 著作権
+
+このソフトウェアは、MITライセンスのもとで公開されている。[LICENSE-ja.txt](LICEN
+SE-ja.txt)を見よ。
 
